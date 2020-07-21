@@ -1,4 +1,4 @@
-class CircularQueue {
+public class CircularQueue {
     
     private int[] data;
     private int head;
