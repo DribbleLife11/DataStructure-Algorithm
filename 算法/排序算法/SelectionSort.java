@@ -2,7 +2,7 @@
 * 选择排序
 * 时间复杂度O（n^2）
 */
-public class Selection {
+public class SelectionSort {
     /*
     public static void selectionSort(Comparable[] a) {
 
