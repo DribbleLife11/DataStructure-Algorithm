@@ -1,16 +1,16 @@
 /**
 * 归并排序
 */
-public class Merge {
-    public void mergeSort(int[] arr, int start, int end) {
+public class MergeSort {
+    public void sort(int[] arr, int start, int end) {
         if (end <= start) {
             return;
         }
         else {
             //用end - start而不是start + end 是防止当end过大时造成整型溢出
             int mid = start + (end - start) /2;
-            mergeSort(arr,start,mid);
-            mergeSort(arr,mid + 1,end);
+            sort(arr,start,mid);
+            sort(arr,mid + 1,end);
             merge(arr,start,mid,end);
             //merge();
         }
