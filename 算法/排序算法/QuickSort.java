@@ -1,9 +1,8 @@
-import java.util.Arrays;
 
 /**
 * 快速排序
 */
-public class Quick {
+public class QuickSort {
 
     public static void quickSort(int[] a,int low,int high) {
         if (low >= high) return;
